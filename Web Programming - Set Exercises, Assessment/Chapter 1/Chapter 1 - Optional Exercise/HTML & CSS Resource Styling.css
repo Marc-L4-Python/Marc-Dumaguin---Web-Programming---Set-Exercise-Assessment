@@ -1,0 +1,67 @@
+html, body { /* HTML and Body section styling - removing margin and inputting side paddings */
+    margin: 0;
+    padding: 0 5em;
+    font-family: Futura;
+}
+
+@font-face { /* Futura Light - a simple, clean, & minimalistic font that has been imported and used for the website */
+    font-family: Futura;
+    src: url(futura\ light\ bt.ttf);
+}
+
+header { /* Four default HTML tags/elements with CSS styling*/
+    font-size: 5.5mm;
+}
+
+section {
+    padding: 2.5mm 0;
+    margin-bottom: 1.2em;
+}
+
+p {
+    padding: 0 1em;
+    font-size: 4.8mm;
+}
+
+footer {
+    padding: 5em 0;
+}
+
+.footer { /* Extra footer styling to place a margin at its bottom part - to give whitespace in between footer example and real website footer */
+    margin-bottom: 3em;
+}
+
+.header { /* Adding a padding to the top and bottom of the header */
+    padding: 0.4em 0;
+}
+
+a { /* Anchor Element CSS styling */
+    text-decoration: none;
+    padding: 0.2mm 2em;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+a:hover { /* A hover effect place upon the anchor element; when being hovered over */
+    text-decoration: underline;
+}
+
+div.first, div.second { /* The CSS Styling of the two div examples */
+    float: left;
+    padding: 0 2.2em;   
+}
+
+pre, code { /* Margin/spacing alignment and correction for visual appeal */
+    margin-top: -3em;
+    margin-bottom: -6em;
+    font-size: 3.5mm;
+}
+
+.preclass { /* separate CSS styling for one of the <pre> tag elements */
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2, h3 { /* Uniforming header font sizes */
+    font-size: 6.2mm;
+}
